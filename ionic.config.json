@@ -1,0 +1,7 @@
+{
+  "name": "tapandsellIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
