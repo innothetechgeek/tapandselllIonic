@@ -2,8 +2,7 @@
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-menu-button autoHide="false"></ion-menu-button>
-  
-    </ion-buttons>
+      </ion-buttons>
     <ion-buttons slot="secondary">
       <ion-button>
         <ion-icon slot="icon-only" name="search"></ion-icon>
@@ -17,15 +16,78 @@
     <ion-title>Tapandsell</ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-  <div slot="fixed" class = "header-search-content">
+  <div class = "header-search-content">
     <p>Search From Thousands Of Ads</p>
     <h6>Here You can search</h6>
   </div>
+  <!-- Default Searchbar -->
+  <div  class="search-bar-container" >
+        <ion-searchbar placeholder="search with keywords" animated = "true"  class = "home-search-bar"></ion-searchbar>
+  </div>
+  <div class = "main-container">
+  <div class="categories-header">
+    <h4>Categories</h4>
+    <h4><a href="" class="view-all-categories">View All Categories</a></h4>
+    </div>
+ 
+    <ion-slides pager="false" >
+      <ion-slide>
+        <div class = "slider-image">
+          <div class = "image">
+              <img  class = "img-fluid" src="http://templatecycle.com/demo/bootclassified-5.1/dist/images/category/car-2.jpg" />
+          </div>
+          Viheclies
+      </div>
+      </ion-slide>
+      <ion-slide>
+        <div class = "slider-image">
+          <div class = "image">
+              <img  class = "img-fluid" src=" http://templatecycle.com/demo/bootclassified-5.1/dist/images/category/laptop-2.jpg" />
+          </div>
+          Laptops
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class = "slider-image">
+          <div class = "image">
+              <img  class = "img-fluid" src="http://templatecycle.com/demo/bootclassified-5.1/dist/images/category/camera.jpg" />
+          </div>
+          Cameras
+      </div>
+      </ion-slide>
+    </ion-slides>
+    
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+            <div class = "latest-ad">
+                <img  class = "img-fluid" src="http://templatecycle.com/demo/bootclassified-5.1/dist/images/item/tp/Image00011.jpg" />
+                <div class="ad-details">
+                    <p>Used Samsung</p>
+                    <p class = "ad-location-home">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Chicago, United States</p>
+                    <p class ="home-page-price"><strong>$15.00</strong></p>
+                </div>
+            </div>
+          </ion-col>
+        <ion-col>
+            <div class = "latest-ad">
+                <img  class = "img-fluid" src="http://templatecycle.com/demo/bootclassified-5.1/dist/images/item/tp/Image00006.jpg" />
+                <div class="ad-details">
+                    <p>Xperia Z5 Premium</p>
+                    <p class = "ad-location-home">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Los Vagas United States</p>
+                    <p class ="home-page-price"><strong>$20.00</strong></p>
+                </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+
+
+    </div>
 </ion-content>

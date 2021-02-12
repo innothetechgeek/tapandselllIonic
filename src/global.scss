@@ -24,3 +24,17 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-content{
+    --background: #ebebeb;
+    --padding-top:0px;
+}
+
+.main-container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ion-grid{
+    margin-top:10px;
+}
