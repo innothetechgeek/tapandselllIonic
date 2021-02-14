@@ -19,9 +19,32 @@
     .header-search-content p{
         margin-top:0px;
         margin-bottom: 5px !important;
-       
     }
 
+    .mg-bottom-15 {
+        margin-bottom: 15px;
+    }
+
+    .btn-view-more {
+        --background: #f48937;
+        color: #fff;
+        border-radius: 0px;
+        --border:none;
+        --padding-top: 1px;
+        --padding-bottom: 1px;
+        --box-shadow: none;
+        margin-top:10px;
+        --padding-start: .90em;
+        --padding-end: .90em;
+        text-transform: none;
+        height: 28px;
+    }
+    
+    .main-container{
+        padding-top:0px;
+        top: -5px;
+        position: relative;
+    }
     .header-search-content h6{
         padding-top:0px;
         margin-top:0px;
@@ -29,7 +52,7 @@
     }
     .search-bar-container{
         width:100%;
-        display: block !important;
+        display: block !important; 
     }
     .home-search-bar{
         position:relative;
